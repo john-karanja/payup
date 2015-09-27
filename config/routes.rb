@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  root  'pay_up_pages#index'
+  get 'pay_up_pages/login'
+  get 'pay_up_pages/signup'
+  get 'pay_up_pages/dash_payment'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

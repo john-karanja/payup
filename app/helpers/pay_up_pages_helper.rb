@@ -1,0 +1,2 @@
+module PayUpPagesHelper
+end
