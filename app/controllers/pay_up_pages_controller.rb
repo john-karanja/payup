@@ -1,4 +1,5 @@
 class PayUpPagesController < ApplicationController
+  
   def index
   end
 
@@ -9,5 +10,11 @@ class PayUpPagesController < ApplicationController
   end
 
   def dash_payment
+  end
+
+  def payment_details
+  end
+
+  def amount_details
   end
 end

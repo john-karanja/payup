@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   get 'pay_up_pages/login'
   get 'pay_up_pages/signup'
   get 'pay_up_pages/dash_payment'
+  get 'pay_up_pages/payment_details'
+  get 'pay_up_pages/amount_details'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
